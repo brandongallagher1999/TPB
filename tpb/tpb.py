@@ -75,7 +75,9 @@ class List(object):
         if table is None:  # no table means no results:
             return []
         else:
-            return table.findall('.//tr')[1:]  # get all rows but header
+            query: list = table.findall(".//tr") #Fixes the last td element only having column problem.
+            range: int = len(query)
+            return query[1:range-1] # get all rows but header
 
     def _build_torrent(self, row):
         """
@@ -83,9 +85,10 @@ class List(object):
         """
         # Scrape, strip and build!!!
         cols = row.findall('.//td')  # split the row into it's columns
-
+        
         # this column contains the categories
-        [category, sub_category] = [c.text for c in cols[0].findall('.//a')]
+        category: str = cols[0].findall(".//a")[0].text
+        sub_category: str = cols[0].findall(".//a")[1].text
 
         # this column with all important info
         links = cols[1].findall('.//a')  # get 4 a tags from this columns
