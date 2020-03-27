@@ -4,7 +4,7 @@ Unofficial Python API for [ThePirateBay](http://thepiratebay.org/).
 
 | Build Status | Test Coverage | Version | Downloads (30 days) |
 | ------------ | ------------- | ------- | ------------------- |
-| [![Build Status] Passing | [![Coverage Status](https://coveralls.io/repos/karan/TPB/badge.png)](https://coveralls.io/r/karan/TPB) | [![Latest Version](https://pypip.in/v/ThePirateBay/badge.png)](https://pypi.python.org/pypi/ThePirateBay/) | [![Downloads](https://pypip.in/d/ThePirateBay/badge.png)](https://pypi.python.org/pypi/ThePirateBay/) |
+| Passing | [![Coverage Status](https://coveralls.io/repos/karan/TPB/badge.png)](https://coveralls.io/r/karan/TPB) | [![Latest Version](https://pypip.in/v/ThePirateBay/badge.png)](https://pypi.python.org/pypi/ThePirateBay/) | [![Downloads](https://pypip.in/d/ThePirateBay/badge.png)](https://pypi.python.org/pypi/ThePirateBay/) |
 
 Installation
 =============
