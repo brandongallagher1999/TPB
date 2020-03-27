@@ -106,16 +106,10 @@ responses. You can activate the remote running option by:
 $ REMOTE=true python -m unittest discover
 ```
 
-Donations
+Features Added after Fork
 ========
-
-If *TPB* has helped you in any way, and you'd like to help the developer, please consider donating.
-
-**- BTC: [19dLDL4ax7xRmMiGDAbkizh6WA6Yei2zP5](http://i.imgur.com/bAQgKLN.png)**
-
-**- Gratipay: [https://www.gratipay.com/karan/](https://www.gittip.com/karan/)**
-
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
+- Ability to Scrape data from 100% of PirateBay Mirrors, rather than only scraping from PirateBay.org
+- Python Requests library updated to Python 3.x for proper GET requests
 
 Contribute
 ========
